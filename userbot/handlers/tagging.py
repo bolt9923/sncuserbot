@@ -16,7 +16,13 @@ messages = [
     "Reply karo 😎",
     "Kaun online hai?",
 ]
-
+tag_styles = [
+    "🔥 {name} {msg}",
+    "⚡ {name} → {msg}",
+    "👀 {name} | {msg}",
+    "💀 {name} ❯ {msg}",
+    "🚀 {name} >>> {msg}",
+]
 reactions = ["👍", "🔥", "❤️", "😂"]
 
 @client.on(events.NewMessage(pattern=r"\.starttag"))
